@@ -16,3 +16,52 @@ a:link, a:visited {
     overflow: hidden;
     -webkit-appearance: none;
 }
+
+.searchbutton {
+    font-family: arial,sans-serif;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    -webkit-appearance: push-button;
+    -webkit-user-select: none;
+    white-space: pre;
+    
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.content {
+    padding-bottom: 35px;
+}
+
+div {
+    display: block;
+}
+
+div#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#viewport {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
